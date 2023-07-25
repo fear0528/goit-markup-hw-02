@@ -41,20 +41,24 @@ body {
    text-decoration: none; 
 }
 
-
-.menulist :hover {
-    color: var(--pressed-state-color);
-}
-
-.menulist :focus {
-    color: var(--pressed-state-color);
-}
-
-.list {
-    list-style: none;
+.menulistitem{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.menulistitem:hover, .menulistitem:focus {
+    color: var(--pressed-state-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.contacts .menulistitem {
+    font-style: normal;
+    font-weight: 400;
 }
