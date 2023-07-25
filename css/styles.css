@@ -41,7 +41,7 @@ body {
    text-decoration: none; 
 }
 
-.menulist{
+.menulistitem{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -57,7 +57,3 @@ body {
     color: var(--pressed-state-color);
 }
 
-.adreess-contacs {
-    font-style: normal;
-
-}
