@@ -1,33 +1,58 @@
 :root {
    --font-family: "Roboto", sans-serif;
+   --font-family-raleway: "Raleway", sans-serif;
    --color: #434455;
    --background-color: #FFFFFF;
+   --primary-brand-color: #4D5AE5;
+   --pressed-state-color: #404BBF;
+   --dark-color: #2E2F42;
+   --success-color: #31D0AA;
+   --text-color: #434455;
+   --subtle-text-color: #8E8F99;
+   --accent-color: #E7E9FC;
 
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: var(--font-family);
+    color: var(--color);
+    background-color: var(--background-color);
 }
 
-.link {
-    font-family: "Raleway", sans-serif;
+.darklogo{
+    font-family: var(--font-family-raleway);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
+    color:var(--primary-brand-color);
 }
     
-.link span {
-    color: #2e2f42; 
+.darklogo span {
+    color: var(--dark-color);
     list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+}
+.link {
+   text-decoration: none; 
+}
+
+.menulist{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menulist :hover {
+    color: var(--pressed-state-color);
+}
+
+.menulist :focus {
+    color: var(--pressed-state-color);
 }
