@@ -14,9 +14,9 @@
 }
 
 body {
-    font-family: var(--font-family);
-    color: var(--color);
-    background-color: var(--background-color);
+    font-family: "Roboto", sans-serif,
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .darklogo{
@@ -30,7 +30,7 @@ body {
 }
     
 .darklogo span {
-    color: var(--dark-color);
+    color: #2E2F42 ;
     list-style: none;
     font-weight: 500;
     font-size: 16px;
