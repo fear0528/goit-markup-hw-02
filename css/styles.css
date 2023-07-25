@@ -47,7 +47,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--dark-color);
 }
 
 .menulistitem:hover, .menulistitem:focus {
@@ -59,6 +59,10 @@ body {
 }
 
 .contacts .menulistitem {
-    font-style: normal;
     font-weight: 400;
+    color: var(--dark-color);
+}
+
+.contacts {
+    font-style: normal;
 }
