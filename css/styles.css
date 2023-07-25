@@ -41,13 +41,6 @@ body {
    text-decoration: none; 
 }
 
-.menulistitem{
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 .menulist :hover {
     color: var(--pressed-state-color);
@@ -59,4 +52,9 @@ body {
 
 .list {
     list-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
