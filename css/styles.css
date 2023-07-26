@@ -9,6 +9,7 @@
    --success-color: #31D0AA;
    --text-color: #434455;
    --subtle-text-color: #8E8F99;
+   --light-text-color: #f4f4fd;
    --accent-color: #E7E9FC;
 
 }
@@ -156,4 +157,27 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--light-text-color);
+    letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+}
+
+.footer-span {
+    color: var(--light-text-color);
 }
