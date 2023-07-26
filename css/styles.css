@@ -182,9 +182,7 @@ body {
     color: var(--light-text-color);
 }
 
-.button-all {
-    background-color: var(--light-text-color);
-    color: var(--primary-brand-color);
+.button {
     text-align: center;
     font-family: Roboto,sans-serif;
     font-size: 16px;
@@ -194,33 +192,37 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+.button, .all{
+    background-color: var(--light-text-color);
+    color: var(--primary-brand-color)
+}
 
-.button-other {
+.button, .other { 
     background-color: #F4F4FD;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
     color: var(--primary-brand-color);
-    cursor: pointer;
 }
 
-.button-all:hover {
+.all:hover {
     background-color: var(--pressed-state-color);
+    color: #FFFFFF;
     cursor: pointer;
 }
 
-.button-other:hover {
+.other:hover {
     background-color: #FFFFFF;
     cursor: pointer;
 }
 
-.button-all:focus{
+.all:focus{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
+
+.other:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
 .portfolioh2 {
     font-weight: 500;
     font-size: 20px;
@@ -233,5 +235,5 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color);
-    
+
 }
