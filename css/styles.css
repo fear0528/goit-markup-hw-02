@@ -183,8 +183,8 @@ body {
 }
 
 .button-all {
-    background-color: var(--primary-brand-color);
-    color: var(--background-color);
+    background-color: var(--light-text-color);
+    color: var(--primary-brand-color);
     text-align: center;
     font-family: Roboto,sans-serif;
     font-size: 16px;
@@ -192,6 +192,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button-other {
@@ -204,9 +205,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.64px;
     color: var(--primary-brand-color);
+    cursor: pointer;
 }
 
-.button-all:hover{
+.button-all:hover {
     background-color: var(--pressed-state-color);
     cursor: pointer;
 }
@@ -214,4 +216,22 @@ body {
 .button-other:hover {
     background-color: #FFFFFF;
     cursor: pointer;
+}
+
+.button-all:focus{
+    background-color: #404BBF;
+}
+.portfolioh2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfoliop {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color);
+    
 }
