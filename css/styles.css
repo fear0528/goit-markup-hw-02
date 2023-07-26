@@ -69,11 +69,11 @@ body {
     color: var(--pressed-state-color);
 }
 
-.solution {
+.section1 {
     background-color: var(--dark-color);
 }
 
-h1 {
+.section1 h1 {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -94,7 +94,66 @@ h1 {
 
 }
 
-.order:hover .order:focus {
+.order:hover {
     background-color: #404BBF;
     cursor: pointer;
+}
+
+.order:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.section2 h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.list p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section3 h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-color);
+
+}
+
+.section4 {
+    background-color: #F4F4FD
+}
+.section4 h2 {
+    font-size: 36px;
+     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+.section4 .list {
+    background-color: #FFFFFF;
+
+}
+.section4 h3 {
+    font-family: Roboto;
+     font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section4 p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
