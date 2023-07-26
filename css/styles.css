@@ -184,28 +184,26 @@ body {
 
 .button-all {
     background-color: var(--primary-brand-color);
-    color: var(--white, #FFF);
-        text-align: center;
-        /* Button Text */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.64px;
+    color: var(--background-color);
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button-other {
     background-color: #F4F4FD;
     text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.64px;
-        color: var(--primary-brand-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--primary-brand-color);
 }
 
 .button-all:hover{
