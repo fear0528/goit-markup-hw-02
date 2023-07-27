@@ -245,6 +245,13 @@ body {
     color: #404BBF;
 }
 
-..porfolio-list-li:focus {
+.porfolio-list-li:focus {
     color: #404BBF;
 }
+ .active {
+    color: var(--primary-brand-color);
+    background-color: #F4F4FD;
+ }
+ .active:hover {
+    color: #FFFFFF;
+ }
