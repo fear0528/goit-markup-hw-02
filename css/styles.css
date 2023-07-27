@@ -193,31 +193,19 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button, .all{
-    background-color: var(--light-text-color);
-    color: var(--primary-brand-color)
-}
+
 
 .button, .other { 
     background-color: #F4F4FD;
     color: var(--primary-brand-color);
 }
 
-.all:hover {
-    background-color: var(--pressed-state-color);
-    color: #FFFFFF;
-    cursor: pointer;
-}
 
 .other:hover {
     background-color: #FFFFFF;
     cursor: pointer;
 }
 
-.all:focus{
-    background-color: #404BBF;
-    color: #FFFFFF;
-}
 
 .other:focus{
     background-color: #404BBF;
@@ -240,10 +228,14 @@ body {
 
 }
 
-.section-second-hthird {
+.section-second-h-third {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+}
+
+.section-fourth-list-li {
+    background-color: #FFFFFF;
 }
