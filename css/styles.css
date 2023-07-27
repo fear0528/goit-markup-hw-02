@@ -194,7 +194,9 @@ body {
     cursor: pointer;
     color: var(--primary-brand-color);
 }
-
+.button:first-child {
+    background-color: #F4F4FD;
+}
 
 .other:hover {
     background-color: var(--pressed-state-color);
