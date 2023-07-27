@@ -131,7 +131,7 @@ body {
 .section4 {
     background-color: #F4F4FD
 }
-.section4 h2 {
+.section4h2 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -144,13 +144,14 @@ body {
     background-color: #FFFFFF;
 
 }
-.section4 h3 {
+.section4h3 {
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--dark-color);
 }
 
 .section4 p {
