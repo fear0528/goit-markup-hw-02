@@ -195,12 +195,6 @@ body {
 }
 
 
-.button, .other { 
-    background-color: #F4F4FD;
-    color: var(--primary-brand-color);
-}
-
-
 .other:hover {
     background-color: #FFFFFF;
     cursor: pointer;
