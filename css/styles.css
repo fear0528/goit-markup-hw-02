@@ -42,7 +42,7 @@ body {
    text-decoration: none; 
 }
 
-.menulistitem{
+.menu-list-item{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -58,7 +58,7 @@ body {
     list-style: none;
 }
 
-.contacts .menulistitem {
+.contacts .menu-list-item {
     font-weight: 400;
     color: var(--text-color);
 }
@@ -66,15 +66,15 @@ body {
 .contacts {
     font-style: normal;
 }
-.menulistitem:hover, .menulistitem:focus {
+.menu-list-item:hover, .menu-list-item:focus {
     color: var(--pressed-state-color);
 }
 
-.section1 {
+.section-first {
     background-color: var(--dark-color);
 }
 
-.h1main{
+.h-main{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -83,7 +83,7 @@ body {
 
 }
 
-.btnmain {
+.btn-main {
     background-color: #4D5AE5;
     font-family:"Roboto", sans-serif;
     font-weight: 500;
@@ -95,17 +95,17 @@ body {
 
 }
 
-.btnmain:hover {
+.btn-main:hover {
     background-color: #404BBF;
     cursor: pointer;
 }
 
-.btnmain:focus {
+.btn-main:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
 
-.section2h2 { 
+.section-second-h-second { 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -118,7 +118,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.section3h2 {
+.section-third-h-second {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -128,10 +128,10 @@ body {
 
 }
 
-.section4 {
+.section-fourth {
     background-color: #F4F4FD
 }
-.section4h2 {
+.section-fourth-h-second {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -144,7 +144,7 @@ body {
     background-color: #FFFFFF;
 
 }
-.section4h3 {
+.section-fourth-h-third {
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -154,7 +154,7 @@ body {
     color: var(--dark-color);
 }
 
-.section4 p {
+.section-fourth p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -224,7 +224,7 @@ body {
     color: #FFFFFF;
 }
 
-.portfolio2 {
+.portfolio-second {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -232,7 +232,7 @@ body {
     color: var(--dark-color);
 }
 
-.portfoliop {
+.portfolio-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -240,7 +240,7 @@ body {
 
 }
 
-.section2h3 {
+.section-second-h-third {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
