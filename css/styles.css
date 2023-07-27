@@ -192,18 +192,21 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: var(--primary-brand-color);
 }
 
 
 .other:hover {
-    background-color: #FFFFFF;
+    background-color: var(--pressed-state-color);
+    color: #ffffff ;
     cursor: pointer;
 }
 
 
 .other:focus{
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--pressed-state-color);
+    color: #ffffff;
+    cursor: pointer;            
 }
 
 .portfolio-second {
@@ -248,10 +251,3 @@ body {
 .porfolio-list-li:focus {
     color: #404BBF;
 }
- .active {
-    color: var(--primary-brand-color);
-    background-color: #F4F4FD;
- }
- .active:hover {
-    color: #FFFFFF;
- }
