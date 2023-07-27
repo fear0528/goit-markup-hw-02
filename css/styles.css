@@ -239,3 +239,18 @@ body {
 .section-fourth-list-li {
     background-color: #FFFFFF;
 }
+
+.porfolio-list-li {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.porfolio-list-li:hover {
+    color: #404BBF;
+}
+
+..porfolio-list-li:focus {
+    color: #404BBF;
+}
